@@ -5,7 +5,7 @@ import { resolve } from "path";
 
 
 
-async function UserData(){
+async function UserDataGet(){
 
     var userNameInput = document.getElementById("userName") as HTMLInputElement || null;
     var userLastNameInput = document.getElementById("userLastName") as HTMLInputElement || null;
@@ -80,56 +80,80 @@ async function UserData(){
 
                 }));
 
-
-                
-                for(var i = 0; 0 > dataSalesPersonArray.length; i++ ){
-
-                }
-
+            
 
                 dataSalesPersonArray.forEach((i) => {
-                    console.log("name: " + i.name);
-                    console.log()
+                    
+                    const newDiv = document.createElement("div");
+
+                    newDiv.innerHTML =`
+                        <div>
+                            ==================================
+                        </div>
+                        <div>
+                            Estou em : ${i.key}
+                            Nome: ${i.name}
+                        </div>
+                        <div>
+                            Sobrenome: ${i.lastName}
+                        </div>
+                        <div>
+                            Telefone: ${i.phoneNumber}
+                        </div>
+                        <div>
+                            Endereço: ${i.address}
+                        </div>
+                        <div>
+                            Email: ${i.email}
+                        </div>
+                        <div>
+                            CPF: ${i.cpf}
+                        </div>
+                        <div>
+                            ==================================
+                        </div>`;
+                    
+                    document.body.appendChild(newDiv);
+              
+                    
                 })
 
-
-
-                // console.log(dataSalesPersonArray);
-
-        //     var teste;
-
-        //    console.log(teste.map((ola:any)=>{
-        //     const {name} = ola;
-
-        //    })
-        //    );
-
-            newDiv.innerHTML =`
-            <div>
-                Nome111: ${dataSalesPersonArray[1].name}
-            </div>
-            <div>
-                Sobrenome: ${dataSalesPersonArray[1].lastName}
-            </div>
-            <div>
-                Telefone: ${dataSalesPersonArray[1].phoneNumber}
-            </div>
-            <div>
-                Endereço: ${dataSalesPersonArray[1].address}
-            </div>
-            <div>
-                Email: ${dataSalesPersonArray[1].email}
-            </div>
-            <div>
-                CPF: ${dataSalesPersonArray[1].cpf}
-            </div>
-                
-    
-            `
     })
    
 
 }
+
+
+async function UserDataPost() {
+    const salesPersonUrl1 = "http://localhost:4000/api/vendedor";
+
+    var salesPersonJson = {
+            "name": "cvxcvcx",
+            "lastName":"jesus",
+            "phoneNumber":"2199999999",
+            "cpf":"951951951951",
+            "email":"sdsad@teste",
+            "address":"R. Mexico"   
+    }
+
+    await axios.post(salesPersonUrl1,salesPersonJson,
+        {
+            headers:{
+                "Content-Type": "application/json",
+            
+            }
+
+        }).then((response)=>{
+
+        console.log(response);
+
+    }
+
+    ) 
+}
+
+
+
 
 function UserInput(){
 
@@ -159,8 +183,9 @@ function UserInput(){
             <label>cpf</label>
             <input id= "userCpf" type="text" />
         </div>
-        
-        <button onClick={UserData}>Enviar</button>
+
+        <button onClick={UserDataPost}>Enviar</button>
+        <button onClick={UserDataGet}>OBTER</button>
         
         <br></br>
 
