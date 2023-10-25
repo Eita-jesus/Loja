@@ -1,0 +1,30 @@
+.body{
+    margin: 0%;
+    padding:0%;
+    font-family:none;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 10px;
+    color: black;
+    background-color: rgb(231, 235, 235);
+
+}
+
+
+.nav1{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    font-size: 20px;
+    margin: 0px 10px 0px 0px;
+    padding: 10px 10px 0px 10px;
+    color: black;
+    background-color: rgb(231, 235, 235);
+
+}

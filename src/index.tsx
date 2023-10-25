@@ -3,8 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Mensagem from './components/mensagem/Mensagem';
-import UserInput from './components/mensagem/userInput/UserInput';
+// import Mensagem from './components/mensagem/Mensagem';
+// import UserInput from './components/mensagem/userInput/UserInput';
+import Navbar from './componentes/navbar/Navbar';
+import ImageMainHome from './componentes/mainImage/ImageMainHome';
+// import HomePage from './componentes/produtos/Produtos';
+import ProdutosCards from './componentes/produtos/Produtos';
 
 
 
@@ -17,11 +21,17 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     {/* <App /> */}
-    
-    <Mensagem/>
+    {/* <Mensagem/><UserInput/>*/}
 
-    <UserInput/>
-  
+
+
+  <Navbar/>
+  <ImageMainHome/>
+  <ProdutosCards/>
+
+
+
+
 
   </React.StrictMode>
 );

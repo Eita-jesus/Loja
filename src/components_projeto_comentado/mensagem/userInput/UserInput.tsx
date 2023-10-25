@@ -2,6 +2,7 @@ import React from "react";
 import axios from "axios";
 import './UserInput.css';
 import { resolve } from "path";
+import { error } from "console";
 
 
 
@@ -138,18 +139,19 @@ async function UserDataPost() {
 
     await axios.post(salesPersonUrl1,salesPersonJson,
         {
+            withCredentials:true,
             headers:{
                 "Content-Type": "application/json",
-            
-            }
+            },
+            maxRedirects:0,
 
         }).then((response)=>{
+            console.log(response);
 
-        console.log(response);
-
-    }
-
-    ) 
+    }) 
+    .catch((erro)=>{
+        console.log(error)
+    })
 }
 
 

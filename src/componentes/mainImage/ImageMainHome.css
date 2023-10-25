@@ -1,0 +1,20 @@
+.ImageMain{
+    background-color: #f5f5f7;
+    display: flex;
+    justify-content:space-around;
+    max-width:500px;
+    max-height:0%;
+    width: auto;
+    height: auto;
+}
+
+img{   
+
+    max-width:350%;
+    max-height:150%;
+    width: auto;
+    height: auto;
+    
+  
+}
+
