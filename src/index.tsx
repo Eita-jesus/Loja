@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 // import Mensagem from './components/mensagem/Mensagem';
 // import UserInput from './components/mensagem/userInput/UserInput';
 import Navbar from './componentes/navbar/Navbar';
-import ImageMainHome from './componentes/mainImage/ImageMainHome';
+ import ImageMainHome from './componentes/mainImage/ImageMainHome';
 // import HomePage from './componentes/produtos/Produtos';
 import ProdutosCards from './componentes/produtos/Produtos';
 
@@ -23,10 +23,10 @@ root.render(
     {/* <App /> */}
     {/* <Mensagem/><UserInput/>*/}
 
-
-
   <Navbar/>
-  <ImageMainHome/>
+  
+  <ImageMainHome/> 
+
   <ProdutosCards/>
 
 
