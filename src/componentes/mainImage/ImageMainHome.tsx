@@ -18,10 +18,6 @@ function ImageMainHome(){
     return(
 
         <div id="mainCard" className= "mainCard">
-
-
-            
-            OLAAAA
         </div>
     )
 }

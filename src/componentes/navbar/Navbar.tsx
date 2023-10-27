@@ -14,6 +14,8 @@ function Navbar(){
 
         <div >
             <div className="nav">
+
+                <img src="\src\componentes\image\gifllogo.gif"></img>
                 <div>Logo</div>
 
                 <div>Login</div>
