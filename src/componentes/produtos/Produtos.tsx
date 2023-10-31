@@ -9,7 +9,7 @@ async function CardPoductsGet() {
 
 
 
-function ProdutosCards(){
+function Produtos(){
 
     return (
         <div>
@@ -35,4 +35,4 @@ function ProdutosCards(){
 }
 
 
-export default ProdutosCards;
+export default Produtos;

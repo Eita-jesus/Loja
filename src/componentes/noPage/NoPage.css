@@ -1,0 +1,11 @@
+.statusCode{
+    font-size: 100px;
+    background-color: rgb(190, 68, 68);
+    text-align: center;
+}
+
+
+.noPage{
+    font-size: 20px;
+    background-color: aqua;
+}
