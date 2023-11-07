@@ -22,6 +22,7 @@ import NoPage  from "./componentes/noPage/NoPage";
 import Login from './componentes/login/Login';
 import Produtos from './componentes/produtos/Produtos';
 import CadUsuario from './componentes/users/CadUsuario';
+import CadVenda from './componentes/cadastroVenda/CadastroVenda';
 
 
 
@@ -53,7 +54,7 @@ root.render(
         <Route path='/login' element={<Login/>}/>
         <Route path= '/cadastroDeProdutos' element={<Produtos/>}/>
         <Route path= '/cadastroDeUsuario' element={<CadUsuario/>}/>
-        <Route path= '/cadastroDeVenda' element={<NoPage/>}/>
+        <Route path= '/cadastroDeVenda' element={<CadVenda/>}/>
         <Route path='/sobre' element={<Navbar/>} />
         <Route path='/esqueciSenha' element={<NoPage/>}/>
 

@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import Navbar from "../navbar/Navbar";
 
 function CadUsuario(){
 
 
     return(
         <div>
+            {<Navbar/>}
             <div>
                 <input type="text" placeholder="Nome"/>
             </div>

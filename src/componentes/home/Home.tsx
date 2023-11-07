@@ -8,6 +8,8 @@ function Home() {
         <div>
             {<Navbar/>}
             Apenas um teste
+
+            <div>TESTE</div>
         </div>
 
     );

@@ -1,5 +1,6 @@
 import React from "react";
 import'./Produtos.css'
+import Navbar from "../navbar/Navbar";
 
 async function CardPoductsGet() {
   
@@ -13,6 +14,7 @@ function Produtos(){
 
     return (
         <div>
+        {<Navbar/>}
         <div className="products">PRODUTOS</div>
 
             <div id="mainCard" className="mainCard">
