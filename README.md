@@ -9,13 +9,13 @@ Antes de tudo o projeto foi feito usando o Spring Boot.
 
 Primeiro vá no site https://www.npmjs.com/package/npx e realize o download do NPX e instale-o. (Version: node 20.9.0 LTS)
 
-Em seguida baixe esse projeto, abra seu visual Studio Code, e execute o comando no terminal do vsCode ####`'npm install'`
+Em seguida baixe esse projeto, abra seu visual Studio Code, e execute o comando no terminal do vsCode `'npm install'`
 
 Esse comando e para instalar as dependências do projeto
 
-Em seguida é o grande momento de dar um Star no projeto, execute o npm start no terminar do VS.
+Em seguida é o grande momento de dar um Start no projeto, execute o `npm start` no terminar do VS.
 
-O projeto será iniciado em http://localhost:3000/ como o projeto é CursoSenac ####`"BrowserRouter basename='CursoSenac'"` vamos precisar mudar para http://localhost:3000/CursoSenac
+O projeto será iniciado em http://localhost:3000/ como o projeto é CursoSenac `"BrowserRouter basename='CursoSenac'"` vamos precisar mudar para http://localhost:3000/CursoSenac
 
 Você verá a primeira página do projeto.
 
