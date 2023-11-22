@@ -1,3 +1,27 @@
+
+
+
+# Projeto Loja Curso Senac
+
+Este projeto é conteudo de um curso do Senac de BackEnd e FrontEnd.Neste repositório , você encontratará tudo relacionado o Front. Vamos nessa.
+
+Antes de tudo o projeto foi feito usando o Spring Boot.
+
+Primeiro vá no site https://www.npmjs.com/package/npx e realize o download do NPX e instale-o.
+
+Em seguida baixe esse projeto, abra seu visual Studio Code, e execute o comando no terminal do vsCode npm install
+
+Esse comando e para instalar as dependências do projeto
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
