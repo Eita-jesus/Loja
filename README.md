@@ -1,6 +1,3 @@
-
-
-
 # Projeto Loja Curso Senac
 
 Este projeto é conteudo de um curso do Senac de BackEnd e FrontEnd.Neste repositório , você encontratará tudo relacionado o Front. Vamos nessa.
@@ -15,7 +12,7 @@ Esse comando e para instalar as dependências do projeto
 
 Em seguida é o grande momento de dar um Start no projeto, execute o `npm start` no terminar do VS.
 
-O projeto será iniciado em http://localhost:3000/ como o projeto é CursoSenac `"BrowserRouter basename='CursoSenac'"` vamos precisar mudar para http://localhost:3000/CursoSenac
+O projeto será iniciado em http://localhost:3000/ como o projeto é CursoSenac `BrowserRouter basename='CursoSenac'` vamos precisar mudar para http://localhost:3000/CursoSenac
 
 Você verá a primeira página do projeto.
 
