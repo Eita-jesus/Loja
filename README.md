@@ -6,7 +6,7 @@ Antes de tudo o projeto foi feito usando o Spring Boot.
 
 Primeiro vá no site https://www.npmjs.com/package/npx e realize o download do NPX e instale-o. (Version: node 20.9.0 LTS)
 
-Em seguida baixe esse projeto, abra seu visual Studio Code, e execute o comando no terminal do vsCode `'npm install'`
+Em seguida baixe esse projeto, abra seu visual Studio Code, e execute o comando no terminal do vsCode `'npm install'` ou `'npm i'`
 
 Esse comando e para instalar as dependências do projeto
 
